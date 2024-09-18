@@ -1,0 +1,23 @@
+l1=[]
+
+while True:
+
+a=int(input("Enter element"))
+
+temp=[a]
+
+l1.append(temp)
+
+b=input("Do you wish to continue?")
+
+if b=="Yes":
+
+continue
+
+if b=="No":
+
+break
+
+print("The list is", l1)
+
+print("Largest element is", max(l1))
