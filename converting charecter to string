@@ -1,0 +1,4 @@
+char=['h','e','l','l','o']
+print("converting")
+char=''.join(char)
+print(char)
