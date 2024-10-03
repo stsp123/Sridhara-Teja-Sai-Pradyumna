@@ -1,0 +1,6 @@
+
+keys = ['name', 'age', 'city']
+values = ['rahul', 20, 'hydrabad']
+
+my_dict = {keys[i]: values[i] for i in range(len(keys))}
+print(my_dict) 
