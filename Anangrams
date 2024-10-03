@@ -1,0 +1,7 @@
+
+a=input("enter a string")
+b=input("enter another string")
+if sorted(a)==sorted(b):
+    print("anagrams")
+else:
+    print(" not aningram")
