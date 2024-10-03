@@ -1,0 +1,7 @@
+
+d={"kiran":90,"aman":70,"sunil":155,"raghu":110}
+mykeys=list(d.keys())
+mykeys.sort()
+sort_dict={i:d[i] for i in mykeys}
+print("sorted dictonary is : ")
+print(sort_dict)
