@@ -1,0 +1,6 @@
+a=input("enter any strings")
+words=a.split()
+b=[]
+for i in words:
+    b.append(len(i))
+print(b)    
