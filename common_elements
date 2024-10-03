@@ -1,0 +1,21 @@
+l1=[]
+a=int(input("enter any number"))
+i=0
+while i<a:
+    b=int(input("enter elements in b"))
+    l1.append(b)
+    i=i+1
+l2=[]
+a=int(input("enter any number"))
+j=0
+while j<a:
+    b=int(input("input elements in b"))
+    l2.append(b)
+    j=j+1
+common_elements=[]    
+for i in l1:
+    for j in l2:
+        if i==j:
+            common_elements.append(i)
+print(common_elements)            
+           
